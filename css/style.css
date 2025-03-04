@@ -1,0 +1,30 @@
+.home_slider .owl-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .owl-theme .owl-dots .owl-dot.active span {
+    transition: all ease-in-out .3s;
+} */
+
+/* .home_slider .owl-dots .owl-dot span {
+    transition: all ease-in-out .8s;
+} */
+
+.home_slider .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: rgb(168, 168, 168);
+}
+
+.home_slider .owl-dots .owl-dot.active span {
+    width: 12px !important;
+    background: black !important;
+}
+
+/* .home_slider .owl-dots .owl-dot span:hover {
+    width: 35px !important;
+    background: #0068C8 !important;
+} */
