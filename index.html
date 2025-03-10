@@ -16,10 +16,44 @@
 
     <!-- font awesome icons -->
     <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Londrina+Solid:wght@100;300;400;900&family=Lora:ital,wght@0,400..700;1,400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <h1 class="text-red-400">Hello</h1>
+    <header>
+        <div class="header_top py-4 bg-black bg-no-repeat bg-center bg-cover flex">
+            <div class="uppercase pe-48">
+                <i class="fa-solid fa-bolt fa-lg pe-3"></i>
+                <a class="font-bold text-sm text-white dm_font">summer sale: up to 70% off selected items</a>
+            </div>
+            <div class="uppercase pe-48">
+                <i class="fa-solid fa-bolt fa-lg pe-3"></i>
+                <a class="font-bold text-sm text-white dm_font">summer sale: up to 70% off selected items</a>
+            </div>
+        </div>
+        <div class="header_mid flex items-center py-7 px-4" style="background-color: #FD6506;">
+            <div class="logo w-44 h-10">
+                <img src="img/logo.avif" alt="Not Found">
+            </div>
+            <div class="available flex flex-col items-center">
+                <span class="dm_font text-sm text-white">Available 24/7 at</span>
+                <span class="dm_font text-sm text-white font-bold">091 234-ELLA</span>
+            </div>
+            <div class="">
+                <form action="#">
+                    <div class="search_bar flex rounded-3xl overflow-hidden">
+                        <input type="search" placeholder="Search the store" class="dm_font py-3 px-5">
+                        <button class="py-3 bg-white"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
